@@ -13,7 +13,7 @@ interface Props {
 
 export const HeaderTitle: React.FC<Props> = ({className}) => {
   return (
-    <div className={cn("py-11 border-b-[1px] border-[#7e868e]", className)}>
+    <div className={cn("py-11 border-b-2 border-[rgba(126,134,142,.2)]", className)}>
       <Container>
         <div className="text-white flex flex-col gap-5 sm:flex-row sm:justify-between sm:items-center">
           <div className="text-xl font-medium">Сладкий сундук</div>

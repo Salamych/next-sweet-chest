@@ -10,7 +10,7 @@ interface Props {
 
 export const HeaderContent: React.FC<Props> = ({className}) => {
   return (
-    <div className={cn("pb-[525px]", className)}>
+    <div className={cn("pb-[585px]", className)}>
       <Container>
         <div className="max-w-[647px]">
           <BageGray text="вкуснейшие" />
