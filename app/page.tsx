@@ -1,4 +1,4 @@
-import { CookingPhoneSection, ProductItemsList } from "@/components/shared/sections";
+import { CookingPhoneSection, PersonalCookSection, ProductItemsList } from "@/components/shared/sections";
 
 
 export default function Home() {
@@ -6,6 +6,7 @@ export default function Home() {
    <main>
     <ProductItemsList className="mt-5 mb-10 " />
     <CookingPhoneSection className="mb-4" />
+    <PersonalCookSection className="mb-4" />
    </main>
   );
 }
