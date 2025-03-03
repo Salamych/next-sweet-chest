@@ -5,3 +5,5 @@ export {TitleSection} from "./title-section";
 export {DecorateImage} from "./decorate-image";
 
 export * from "./header";
+export * from "./sections";
+
