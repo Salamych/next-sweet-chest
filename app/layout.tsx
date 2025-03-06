@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import {Montserrat} from "next/font/google";
 import "./globals.css";
-import { Header } from "@/components/shared";
+import { Footer, Header } from "@/components/shared";
+import { Toaster } from "react-hot-toast";
 
 const montserrat = Montserrat({
   subsets: ['cyrillic'],
@@ -25,8 +26,10 @@ export default function RootLayout({
         <link data-rh="true" rel="icon" href="/cupcake.png" />
       </head>
       <body className={montserrat.className}>
+        <Toaster />
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );

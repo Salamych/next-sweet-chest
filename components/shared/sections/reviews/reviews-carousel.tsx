@@ -80,7 +80,7 @@ export function ReviewsCarousel() {
   }, [api])
 
   return (
-    <div className="mx-auto max-w-7xl">
+    <div className="mx-auto max-w-6xl">
       <Carousel setApi={setApi} className="max-w-6xl">
         <CarouselContent>
           {carouselList.map((item) => (

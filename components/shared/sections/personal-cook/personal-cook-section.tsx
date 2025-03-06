@@ -25,7 +25,7 @@ export const PersonalCookSection: React.FC<Props> = ({className}) => {
       <Container>
         <div
           className={cn(
-            "flex flex-col-reverse items-center lg:flex-row lg:justify-between lg:items-center gap-5 lg:gap-2",
+            "flex flex-col-reverse items-center lg:flex-row lg:justify-between lg:items-center gap-5 lg:gap-2 overflow-hidden",
             className
           )}
         >
